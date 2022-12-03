@@ -1,12 +1,9 @@
 
 /* Your CSS Code here. */
 .holder{
-    display: grid;
+    display:grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
     grid-template-columns: repeat(2,200px);
     grid-template-rows: repeat(2,200px);
-
-}
-.box{
-    height:200px;
-    width:200px;
 }
